@@ -38,7 +38,6 @@ section#login > div#imagem {
     background: black url(../imagens/pexels-césar-fonseca-10776723.jpg);
     background-size: cover;
     height: 200px;
-    display: block;
 }
 
 section#login > div#formulario {
