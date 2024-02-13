@@ -30,8 +30,9 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
+    
+
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -84,16 +85,14 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 44.5px);
     height: 100%;
+    transform: translateY(-12px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px);
 }
 
-div.campo > input:focus-within {
-    background-color: white;
-    border: none;
-}
+    div.campo > input:focus-within 
+    
 
 
 form > input[type=submit] {
